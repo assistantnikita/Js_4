@@ -1,0 +1,132 @@
+Day4 JavaScript Questions:
+Create the Example for Logical Operators 
+Difference between “ == “ and “ === “ operators.
+How many operators do we have in JS ?
+What is use of parseInt in js?
+Take input from user and find the odd and even number.
+
+
+ans.. 
+// Logical AND (&&) - Returns true if both operands are true
+let a = true;
+let b= true;
+
+if (a && b) {
+  console.log("yes, This is true");
+} else {
+  console.log("No, This is false");
+}
+
+// Logical OR (||) - Returns true if at least one operand is true
+let a= false;
+let b= true;
+
+if (a || b) {
+  console.log(" true, a or b , one is true");
+} else {
+  console.log("false");
+}
+
+// Logical NOT (!) - Returns the opposite of the operand's truthiness
+let winter = false;
+
+if (!winter) {
+  console.log("This is summer");
+} else {
+  console.log("This is winter.");
+}
+
+2. Difference between “ == “ and “ === “ operators.
+"=="
+- this is equality operator
+- it check the equality if the oprands are different type.
+- console.log(1 =="1")// true
+
+"==="
+- this is strict equality operator
+- it checks the equality,when both the value and data type are same.
+- console.log(1 ==="1")//false
+
+
+3.  How many operators do we have in JS ?
+ans. 
+1. Arithmetic Operators:
++ (addition)
+- (subtraction)
+* (multiplication)
+/ (division)
+% (modulo)
+++ (increment)
+-- (decrement)
+
+2. Assignment Operators:
+= (assignment)
++= (addition assignment)
+`-= (subtraction assignment)
+*= (multiplication assignment)
+/= (division assignment)
+%= (modulo assignment)
+
+3. Comparison Operators:
+== (equality)
+=== (strict equality)
+!= (inequality)
+!== (strict inequality)
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
+
+4. Logical Operators:
+&& (logical AND)
+|| (logical OR)
+! (logical NOT)
+
+5. Bitwise Operators:
+& (bitwise AND)
+| (bitwise OR)
+^ (bitwise XOR)
+~ (bitwise NOT)
+<< (left shift)
+>> (right shift)
+>>> (unsigned right shift)
+
+6. Conditional Operator
+?: (ternary operator)
+
+7. Typeof Operator
+typeof (return a datatype of particular vale)
+
+
+
+4. What is use of parseInt in js?
+ans...
+the parseInt function is used to parse a string and convert it into an integer. 
+let a=parseInt(prompt("enter number");
+console.log(a);//45
+
+5. Take input from user and find the odd and even number.
+ans...
+let a=prompt("enter a number");
+a=Number(a);
+if(a%2==0)
+{
+  console.log("even");
+}
+else
+{
+console.log("odd");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
